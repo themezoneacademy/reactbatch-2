@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import NavBar from './components/NavBar/NavBar';
 import reportWebVitals from './reportWebVitals';
+import TopHeader from './components/TopHeader/TopHeader';
+import OurSeervice from './components/OurSeervice/OurSeervice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <NavBar />
+    <TopHeader />
+    <OurSeervice />
   </React.StrictMode>
 );
 
