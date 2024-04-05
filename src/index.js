@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar';
 import reportWebVitals from './reportWebVitals';
 import TopHeader from './components/TopHeader/TopHeader';
 import OurSeervice from './components/OurSeervice/OurSeervice';
+import TechAnyl from './components/TechAnyl/TechAnyl';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <NavBar />
     <TopHeader />
     <OurSeervice />
+    <TechAnyl />
   </React.StrictMode>
 );
 

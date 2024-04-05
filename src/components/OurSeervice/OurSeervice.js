@@ -9,11 +9,11 @@ class OurSeervice extends Component {
         return (
             <Fragment>
                 <Container>
-                    <h2 className='text-center '>Our Service</h2>
+                    <h2 className='servicetitle text-center '>Our Service</h2>
                     <Row>
                         <Col lg={4} md={6} sm={12}>
 
-                            <Card >
+                            <div className='servicecard text-center' >
                                <img src={icon1} alt="" /> 
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -23,15 +23,15 @@ class OurSeervice extends Component {
                                     </Card.Text>
                                     <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
-                            </Card>
+                            </div>
 
                         </Col> 
 
 
 
 
-                        <Col>
-                            <Card >
+                        <Col  lg={4} md={6} sm={12}>
+                            <div  className='servicecard text-center'>
                             <img src={icon2} alt="" /> 
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -41,7 +41,7 @@ class OurSeervice extends Component {
                                     </Card.Text>
                                     <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
-                            </Card>
+                            </div>
 
 
                         </Col>
@@ -50,9 +50,9 @@ class OurSeervice extends Component {
 
 
 
-                        <Col>
+                        <Col  lg={4} md={6} sm={12}>
 
-                            <Card >
+                            <div  className='servicecard text-center'>
                             <img src={icon3} alt=""  /> 
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -62,7 +62,7 @@ class OurSeervice extends Component {
                                     </Card.Text>
                                     <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
-                            </Card>
+                            </div>
 
                         </Col>
 
