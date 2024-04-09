@@ -36,10 +36,49 @@
 .servicecard{
     margin: 6px 6px 6px 6px;
     height:300px;
-    border: 0.5px solid black;
+    border: 0.5px solid rgba(173, 169, 169, 0.625);
 
 }
 
 .one{
     justify-content: end;
+}
+
+.oness{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+.TotalWork{
+    background-image: url("../images/shanghai.jpg");
+    min-height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TotalWorkOverlay{
+    min-height:500px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.countnumber{
+    color: aliceblue;
+}
+
+.countTitle{
+    color: aliceblue;
+
+}
+
+.countsection{
+    margin-top: 15%;
 }

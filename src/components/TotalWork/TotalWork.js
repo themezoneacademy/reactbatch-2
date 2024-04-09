@@ -1,0 +1,116 @@
+import React, { Component } from 'react';
+import { Fragment } from 'react';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+import { BsArrowUpCircle } from "react-icons/bs";
+
+class TotalWork extends Component {
+    render() {
+        return (
+            <Fragment>
+                <Container fluid className='TotalWork p-0' >
+                    <div className='TotalWorkOverlay '>
+                        <Container className='text-center'>
+                            <Row className='countsection'>
+                                <Col>
+
+                                    <h1 className='countnumber'>
+                                        <CountUp start={0} end={100}>
+                                            {({ countUpRef, start }) => (
+                                                <div>
+
+                                                    <VisibilitySensor onChange={start}>
+                                                        <span ref={countUpRef} />
+                                                    </VisibilitySensor>
+
+                                                </div>
+                                            )}
+                                        </CountUp>
+
+
+
+
+
+                                    </h1>
+                                    <h4 className='countTitle'>Total Project</h4>
+
+
+                                </Col>
+                                <Col>
+
+                                    <h1 className='countnumber'>
+                                        <CountUp start={0} end={100}>
+                                            {({ countUpRef, start }) => (
+                                                <div>
+
+                                                    <VisibilitySensor onChange={start}>
+                                                        <span ref={countUpRef} />
+                                                    </VisibilitySensor>
+
+                                                </div>
+                                            )}
+                                        </CountUp>
+
+
+                                    </h1>
+                                    <h4 className='countTitle'>Total Client</h4>
+
+
+
+                                </Col>
+
+
+
+                                
+                                <Col>
+                               
+
+                                    <Card style={{ width: '18rem' }}>
+
+                                        <Card.Body>
+                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Text>
+                                                <p><BsArrowUpCircle />Hello Js Developer</p>
+                                                <p>Hello Js Developer</p>
+                                                <p>Hello Js Developer</p>
+                                            </Card.Text>
+
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+
+
+
+
+
+                            </Row>
+
+
+
+
+                        </Container>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </Container>
+
+
+
+
+            </Fragment>
+        );
+    }
+}
+
+export default TotalWork;

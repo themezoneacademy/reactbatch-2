@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import TopHeader from './components/TopHeader/TopHeader';
 import OurSeervice from './components/OurSeervice/OurSeervice';
 import TechAnyl from './components/TechAnyl/TechAnyl';
+import TotalWork from './components/TotalWork/TotalWork';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <TopHeader />
     <OurSeervice />
     <TechAnyl />
+    <TotalWork />
   </React.StrictMode>
 );
 

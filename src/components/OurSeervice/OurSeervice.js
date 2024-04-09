@@ -13,15 +13,17 @@ class OurSeervice extends Component {
                     <Row>
                         <Col lg={4} md={6} sm={12}>
 
-                            <div className='servicecard text-center' >
+                            <div className='servicecard text-center'>
                                <img src={icon1} alt="" /> 
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Web Development</Card.Title>
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the
                                         bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    
                                 </Card.Body>
                             </div>
 
@@ -34,12 +36,14 @@ class OurSeervice extends Component {
                             <div  className='servicecard text-center'>
                             <img src={icon2} alt="" /> 
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Mobile Development</Card.Title>
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the
                                         bulk of the card's content.
+                                        Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                 
                                 </Card.Body>
                             </div>
 
@@ -55,12 +59,14 @@ class OurSeervice extends Component {
                             <div  className='servicecard text-center'>
                             <img src={icon3} alt=""  /> 
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
-                                    <Card.Text>
+                                    <Card.Title>Graphic Design</Card.Title>
+                                    <Card.Text  className='oness'>
+                                        Some quick example text to build on the card title and make up the
+                                        bulk of the card's content.
                                         Some quick example text to build on the card title and make up the
                                         bulk of the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    
                                 </Card.Body>
                             </div>
 
