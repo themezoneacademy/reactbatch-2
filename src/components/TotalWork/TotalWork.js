@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
-import { BsArrowUpCircle } from "react-icons/bs";
+import { FaCircleCheck } from "react-icons/fa6";
 
 class TotalWork extends Component {
     render() {
@@ -56,11 +56,12 @@ class TotalWork extends Component {
                                 <Card style={{ width: '18rem' }}>
 
                                         <Card.Body>
-                                            <Card.Title>Card Title</Card.Title>
+                                            <Card.Title>How I Work</Card.Title>
                                             <Card.Text>
-                                                <p><BsArrowUpCircle />Hello Js Developer</p>
-                                                <p>Hello Js Developer</p>
-                                                <p>Hello Js Developer</p>
+                                                <p><FaCircleCheck   /> Hello Js Developer</p>
+                                                <p><FaCircleCheck   /> Hello Js Developer</p>
+                                                <p><FaCircleCheck   /> Hello Js Developer</p>
+                                                
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>

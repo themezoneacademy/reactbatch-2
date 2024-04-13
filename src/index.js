@@ -8,6 +8,7 @@ import TopHeader from './components/TopHeader/TopHeader';
 import OurSeervice from './components/OurSeervice/OurSeervice';
 import TechAnyl from './components/TechAnyl/TechAnyl';
 import TotalWork from './components/TotalWork/TotalWork';
+import RecentProject from './components/RecentProject/RecentProject';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <OurSeervice />
     <TechAnyl />
     <TotalWork />
+    <RecentProject />
   </React.StrictMode>
 );
 
