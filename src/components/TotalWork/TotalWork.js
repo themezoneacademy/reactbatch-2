@@ -13,60 +13,47 @@ class TotalWork extends Component {
                     <div className='TotalWorkOverlay '>
                         <Container className='text-center'>
                             <Row className='countsection'>
-                                <Col>
+                                <Col lg={8} md={6} sm={12}>
+                                    <Row>
+                                        <Col>
+                                            <h1 className='countnumber'>
+                                                <CountUp start={0} end={100}>
+                                                    {({ countUpRef, start }) => (
+                                                        <div>
+                                                            <VisibilitySensor onChange={start}>
+                                                                <span ref={countUpRef} />
+                                                            </VisibilitySensor>
+                                                        </div>
+                                                    )}
+                                                </CountUp>
+                                            </h1>
+                                            <h4 className='countTitle'>Total Project</h4>
 
-                                    <h1 className='countnumber'>
-                                        <CountUp start={0} end={100}>
-                                            {({ countUpRef, start }) => (
-                                                <div>
-
-                                                    <VisibilitySensor onChange={start}>
-                                                        <span ref={countUpRef} />
-                                                    </VisibilitySensor>
-
-                                                </div>
-                                            )}
-                                        </CountUp>
-
-
-
-
-
-                                    </h1>
-                                    <h4 className='countTitle'>Total Project</h4>
+                                        </Col>
 
 
-                                </Col>
-                                <Col>
-
-                                    <h1 className='countnumber'>
-                                        <CountUp start={0} end={100}>
-                                            {({ countUpRef, start }) => (
-                                                <div>
-
-                                                    <VisibilitySensor onChange={start}>
-                                                        <span ref={countUpRef} />
-                                                    </VisibilitySensor>
-
-                                                </div>
-                                            )}
-                                        </CountUp>
-
-
-                                    </h1>
-                                    <h4 className='countTitle'>Total Client</h4>
-
-
-
+                                        <Col>
+                                            <h1 className='countnumber'>
+                                                <CountUp start={0} end={100}>
+                                                    {({ countUpRef, start }) => (
+                                                        <div>
+                                                            <VisibilitySensor onChange={start}>
+                                                                <span ref={countUpRef} />
+                                                            </VisibilitySensor>
+                                                        </div>
+                                                    )}
+                                                </CountUp>
+                                            </h1>
+                                            <h4 className='countTitle'>Total Project</h4>
+                                        </Col>
+                                    </Row>
                                 </Col>
 
 
 
-                                
-                                <Col>
-                               
-
-                                    <Card style={{ width: '18rem' }}>
+                                                              
+                                <Col lg={4} md={6} sm={12}> 
+                                <Card style={{ width: '18rem' }}>
 
                                         <Card.Body>
                                             <Card.Title>Card Title</Card.Title>
@@ -75,17 +62,14 @@ class TotalWork extends Component {
                                                 <p>Hello Js Developer</p>
                                                 <p>Hello Js Developer</p>
                                             </Card.Text>
-
                                         </Card.Body>
                                     </Card>
+
+
                                 </Col>
-
-
-
-
+                               
 
                             </Row>
-
 
 
 
